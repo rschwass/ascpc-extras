@@ -53,7 +53,7 @@ ssh student@<ubuntu-guest-ip>
 
 Use the `student` password provided in your lab manual or student portal.
 
-After logging in over SSH, use the same `localhost:8080` service URLs from the SSH session:
+Use the same `localhost:8080` service URLs from the SSH session:
 
 ```bash
 export GITLAB_URL=http://localhost:8080/gitlab
